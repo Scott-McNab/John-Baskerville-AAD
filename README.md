@@ -23,3 +23,7 @@ AAD115 John Baskerville Proect
 ------------
   * [Version6](http://scott-mcnab.github.io/John-Baskerville-AAD/version6.html)
   * [Version7](http://scott-mcnab.github.io/John-Baskerville-AAD/version7.html)
+
+8Th December
+-------------
+  * [Version8](http://scott-mcnab.github.io/John-Baskerville-AAD/version8.html)
