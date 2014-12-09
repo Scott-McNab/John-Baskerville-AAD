@@ -1,0 +1,325 @@
+body{
+    font-family: Baskerville;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+h1 { 
+    font-family: Baskerville;
+	font-weight:normal;
+	font-size: 55px;
+	text-align: center;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+}
+
+h2 {
+   font-family: Baskerville;
+   font-weight: normal;
+   font-size: 40px;
+   text-align: center;
+   color: #fff;
+   margin: 0;
+   padding: 0;
+}
+
+h3 {
+   font-family: Baskerville;
+   font-weight: 400;
+   font-style: italic;
+   font-size: 22px;
+   text-align: center;
+   margin: 5px 0;
+   padding: 0;
+   z-index: 1;
+   position: relative;
+}
+
+blockquote{
+    font-style: italic;
+    font-size: 18px;
+    color: #888;
+    margin: 30px;
+        }
+
+.center { 
+    margin: 0 auto; 
+}
+
+.content{ 
+    margin: 0 auto; 
+    width: 960px; 
+}
+
+.clear { 
+    clear: both; 
+}
+
+a.lpanel { 
+    float: left; 
+    color: #e1e1e1; 
+    font-size: 12px; 
+    font-family: 'Libre Baskerville', serif; 
+    text-decoration: none; 
+    margin: 7px 11px; 
+}
+
+a.rpanel { 
+    float: right; 
+    color: #e1e1e1;  
+    font-size: 12px; 
+    font-family: 'Libre Baskerville', serif; 
+    text-decoration: none; 
+    margin: 7px 11px; 
+}
+
+a.lpanel:hover { 
+    color: #fff; 
+}
+
+a.rpanel:hover { 
+    color: #fff; 
+}
+
+/*header & nav*/
+
+#header { 
+	width: 100%; 
+	background-color: black; 
+	height: 80px; 	
+	position: fixed;
+	margin-top: 0px;
+    opacity: .6;
+}
+
+nav { 
+    width: 500px; 
+    text-align: center; 
+    margin-top: 20px; }
+
+nav ul{
+	list-style: none;
+	display: block;
+	margin: 0 auto;
+	list-style: none;	
+}
+
+nav li{
+	margin-top: 9px;	
+	float: left;
+	padding-left: 20px;
+}
+
+nav li a { 
+    color: #fff; 
+    opacity:0.6; 
+    font-size: 14px; 
+    text-decoration: none; 
+    font-family: 'Libre Baskerville', serif; 
+}
+
+nav li a.active { 
+    color: #fff; 
+    opacity:1; 
+    border-bottom: 2px solid #fff; 
+}
+
+nav li a:hover { 
+    color: #fff; 
+    opacity:1;  
+}
+
+
+
+/*elements*/
+
+.titles {   
+   font-family: 'Libre Baskerville', serif;
+   font-weight: normal;
+   font-size: 30px;
+   text-align: left;
+   margin: 0px auto;
+}
+   
+
+.titles_container { 
+    width: 800px; 
+    margin: 0 auto; 
+}
+
+#bforbask { 
+    background: url('../img/bforbask.png')no-repeat; 
+    width: 200px; 
+    height: 245px; 
+    margin: 0 auto; 
+    position: relative; 
+    bottom: -35px;
+}
+
+#divider { 
+    background: url('../img/divider.png')no-repeat; 
+    width: 300px; 
+    height: 35px; 
+    margin: 0px auto 27px auto; 
+}
+
+#dot1 {  
+    width: 24px; 
+    height: 21px; 
+    margin: 0 auto;  
+    display: block; 
+    position: relative; 
+    bottom: -54px; 
+    left: -102px; 
+}
+#dot2 {  
+    width: 24px; 
+    height: 21px; 
+    margin: 0 auto;  
+    display: block; 
+    position: relative; 
+    bottom: -33px;  
+    right: -100px; 
+}
+
+
+
+/*buttons*/
+
+button.btn-know { 
+	padding: 15px 47px; 
+	margin: 40px 38.8%;
+	text-align: center;
+	border: 4px solid #fff; 
+	color: #fff; 
+	background: transparent; 
+	font-size: 19px;
+	cursor: pointer;
+	text-shadow: -1px 2px 0px rgba(90, 90, 90, 0.56);
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+}
+
+.btn-know:hover { 
+    background: #fff; 
+    color: transparent; 
+}
+ul.built { 
+    list-style: none; 
+    margin: 0 auto; 
+    width: 730px; 
+}
+.built li img { 
+    float: left; 
+    padding-right: 34px; 
+}
+
+
+
+/*sections*/
+
+#slide1, #slide2{ width: 100%; }
+
+#about{
+	background:url('../images/texture.jpg') 50% 0 no-repeat fixed;
+	color: #fff;
+	height: 400px;
+	margin: 0;
+	padding: 0 0 260px 0;
+	background-size: cover;
+    min-width: 300px;
+}
+
+#about p{
+    max-width: 560px;
+    text-align: justify;
+    padding-right: 20px;
+    padding-top: 100px;
+    padding-bottom: 100px; 
+	padding-left: 20px;
+    min-width: 300px;
+}
+
+#about img{
+    float: right;
+    min-width: 300px;
+    margin: 0px;
+}
+
+#the-man{
+	background-color: #fff;
+	color: #333333;
+	height: 720px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 100px 0;
+    min-width: 300px;
+}
+
+#john {
+            
+    display: block;
+    margin: 0 auto;            
+    padding-top: 20px;
+    padding-bottom: 20px;
+        
+        }
+
+
+#the-typeface{
+	background: url(../images/texture.jpg) 50% 0 no-repeat fixed;
+	color: #fff;
+	height: 800px;
+	padding: 100px 0 0 0;	
+	background-size: cover;
+    min-width: 300px;
+}
+
+#examples{
+	background-color: #fff;
+	color: #333333;
+	height: 500px;
+	padding: 100px 0;
+    min-width: 300px;
+}
+
+
+#mrs-eaves{
+	background: url(../img/blueslide.jpg) 50% 0 no-repeat fixed;
+	color: #333333;
+	height: 700px;
+	padding: 100px 0 0 0;	
+	background-size: cover;
+    min-width: 300px;
+}
+
+
+#eavesfont {
+            
+    display: block;
+    margin: 0 auto;
+        
+        
+}
+
+
+#baskfont {
+            
+    display: block;
+    margin: 0 auto;
+        
+        
+}
+
+article {
+            min-width: 300px;
+            max-width: 100%;
+            margin: 0 auto;
+        
+        }
+
+
+
+/*footer*/
