@@ -74,11 +74,27 @@ section:nth-of-type(2n) {
 }
 
 #intro{
-    background: url(images/texture.png)no-repeat;
+	background: url(images/texture.png)no-repeat fixed;
+	height: 600px;
+	margin: 0;
+	background-size: cover;
+}
+
+#the-typeface{
+	background: url(images/texture.png)no-repeat fixed;
+	color: #fff;
+	background-size: cover;
+}
+
+#mrs-eaves{
+	background: url(images/texture.png)no-repeat fixed;
+	color: #fff;
+	background-size: cover;
 }
 
 .intro {
   height: 90vh;
+    
 }
 
 .content {
